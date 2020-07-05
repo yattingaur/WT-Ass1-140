@@ -1,0 +1,235 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: Century Gothic;
+    box-sizing: border-box;
+}
+
+header {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(tours.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+.head{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
+}
+
+.head h1{
+  color: #fff;
+  font-size: 60px;
+}
+
+.head p{
+  color: rgb(13, 240, 81);
+  font-size: 30px;
+  border-style: solid;
+  border-color: #bdc3c7;
+  border-width: 20px;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-right: 4%;
+  padding-left: 4%;
+}
+
+.body1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
+}
+
+.body1 h1{
+  color: #fff;
+  font-size: 50px;
+}
+
+.body1 h2{
+  color: rgb(11, 210, 245);
+  font-size: 30px;
+}
+
+.body1 p{
+  color: rgb(13, 240, 81);
+  font-size: 20px;
+  border-style: solid;
+  border-color: #bdc3c7;
+  border-width: 5px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+.body h1{
+  color: #fff;
+  font-size: 60px;
+}
+
+.body h2{
+  color: rgb(209, 15, 31);
+  font-size: 40px;
+}
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.contact input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  
+  .contact input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact input[type=submit]:hover {
+    background-color: green;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  .column1 {
+    float: left;
+    width: 30%;
+    margin-top: 100px;
+    padding: 20px;
+  }
+  .column2 {
+    float: left;
+    width: 30%;
+    margin-top: 57px;
+    padding: 20px;
+  }
+  .column3 {
+    float: left;
+    width: 30%;
+    margin-left: 350px;
+    padding: 20px;
+  }.column4 {
+    float: left;
+    width: 30%;
+    margin-right: 300px;
+    padding: 20px;
+  }
+  
+  .row1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  footer{
+    font-family: sans-serif;  
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    color: black;
+}
+
+ 
